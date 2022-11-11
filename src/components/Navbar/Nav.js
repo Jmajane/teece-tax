@@ -3,9 +3,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 const Nav = () => {
   return (
-    <div>Nav
+    <div>
         <nav class="navbar navbar-dark bg-dark">
-            
+
         </nav>
     </div>
   )
