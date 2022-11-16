@@ -1,10 +1,7 @@
-import { useState } from 'react'
+import { BrowserRouter, Route, Link } from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.css';
 
-import Home from "./pages/Home"
-
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#')
 
   return (
     <div>
