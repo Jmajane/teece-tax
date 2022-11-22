@@ -6,6 +6,7 @@ import Home from "./pages/home/Home"
 import PersonalTaxes from "./pages/personal/PersonalTaxes"
 import SmallBusiness from "./pages/smallBusiness/SmallBusiness"
 import LLC from "./pages/LLC/LLCTaxes"
+import Contact from './pages/contact/Contact'
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
             <Route path='PersonalTaxes' element={<PersonalTaxes />} />
             <Route path='SmallBusiness' element={<SmallBusiness />} />
             <Route path='LLC' element={<LLC />} />
+            <Route path='Contact' element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>

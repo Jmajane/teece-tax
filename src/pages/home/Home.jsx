@@ -6,7 +6,7 @@ const Home = () => {
     <div>
       <br></br>
       <br></br>
-        <h1>Home page</h1>
+        <h1>Welcome</h1>
 
         <div>
           <h3>Services</h3>
@@ -35,6 +35,32 @@ const Home = () => {
             <li>S-Corps</li>
           </ul>
         </div>
+
+        <div>
+          <h3>Staff</h3>
+          <div>
+            <h6>Shawn Teece</h6>
+            <p></p>
+          </div>
+          <div>
+            <h6>Zuleyka Alvelo-Teece</h6>
+            <p></p>
+          </div>
+        </div>
+
+        <div>
+          <h3>Resources</h3>
+          <ul>
+            <li>Tax Act Portal</li>
+            <li>IRS Website</li>
+            <li>MA DOR Website</li>
+            <li>CT DOR Website</li>
+            <li>VT Dept. of Taxes</li>
+            <li>NY Dept. of Taxes</li>
+            <li>Where's My Refund</li>
+          </ul>
+        </div>
+
     </div>
   )
 }
