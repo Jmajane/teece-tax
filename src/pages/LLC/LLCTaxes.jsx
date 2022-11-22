@@ -2,7 +2,11 @@ import React from 'react'
 
 const LLCTaxes = () => {
   return (
-    <div>LLCTaxes</div>
+    <div>
+      <br></br>
+      <br></br>
+      <h1>LLC Taxes</h1>
+    </div>
   )
 }
 

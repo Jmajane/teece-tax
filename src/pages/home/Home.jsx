@@ -4,7 +4,9 @@ import React from 'react'
 const Home = () => {
   return (
     <div>
-        <h1>Teece Tax Solutions</h1>
+      <br></br>
+      <br></br>
+        <h1>Home page</h1>
     </div>
   )
 }

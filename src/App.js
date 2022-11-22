@@ -1,11 +1,11 @@
 import ReactDOM from 'react-dom'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-import Layout from "./pages/Layout"
-import Home from "./pages/Home"
-import PersonalTaxes from "./pages/PersonalTaxes"
-import SmallBusiness from "./pages/SmallBusiness"
-import LLC from "./pages/LLCTaxes"
+import Layout from "./pages/layout/Layout"
+import Home from "./pages/home/Home"
+import PersonalTaxes from "./pages/personal/PersonalTaxes"
+import SmallBusiness from "./pages/smallBusiness/SmallBusiness"
+import LLC from "./pages/LLC/LLCTaxes"
 
 export default function App() {
   return (

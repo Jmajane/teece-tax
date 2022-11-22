@@ -2,7 +2,11 @@ import React from 'react'
 
 const SmallBusiness = () => {
   return (
-    <div>SmallBusiness</div>
+    <div>
+      <br></br>
+      <br></br>
+      <h1>Small Business</h1>
+    </div>
   )
 }
 

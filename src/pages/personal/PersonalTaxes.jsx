@@ -2,7 +2,11 @@ import React from 'react'
 
 const PersonalTaxes = () => {
   return (
-    <div>PersonalTaxes</div>
+    <div>
+      <br></br>
+      <br></br>
+      <h1>Personal Taxes</h1>
+    </div>
   )
 }
 
