@@ -15,14 +15,24 @@ const Home = () => {
             <li>Prior Years Tax Preparation</li>
             <li>Multi-State Tax</li>
             <li>Tax Planning</li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Amended Returns</li>
+            <li>Bookkeeping</li>
+            <li>Payroll</li>
+            <li>Financial Statements and Projections</li>
+            <li>Budgeting</li>
+            <li>Free Initial Consultation</li>
+            <li>Free Review of Prior Tax Returns</li>
+            <li>Pricing</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Clients</h3>
+          <ul>
+            <li>Individuals</li>
+            <li>Sole Proprietors</li>
+            <li>Partnerships</li>
+            <li>S-Corps</li>
           </ul>
         </div>
     </div>
