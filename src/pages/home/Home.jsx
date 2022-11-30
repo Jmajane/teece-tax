@@ -1,16 +1,20 @@
 import React from 'react'
 
+import "./home.css"
+
 
 const Home = () => {
   return (
-    <div>
-      <br></br>
-      <br></br>
+    <section id='homes'>
         <h1>Welcome</h1>
 
-        <div>
-          <h3>Services</h3>
-          <ul>
+      <div className='container homes__container'>
+        <article className='home'>
+          <div className='home__head'>
+            <h3>Services</h3>
+          </div>
+
+          <ul className='home__list'>
             <li>Tax Preparation</li>
             <li>Prior Years Tax Preparation</li>
             <li>Multi-State Tax</li>
@@ -24,33 +28,40 @@ const Home = () => {
             <li>Free Review of Prior Tax Returns</li>
             <li>Pricing</li>
           </ul>
-        </div>
+        </article>
 
-        <div>
-          <h3>Clients</h3>
-          <ul>
+        <article className='home'>
+        <div className='home__head'>
+            <h3>Clients</h3>
+          </div>
+
+          <ul className='home__list'>
             <li>Individuals</li>
             <li>Sole Proprietors</li>
             <li>Partnerships</li>
             <li>S-Corps</li>
           </ul>
-        </div>
+        </article>
 
-        <div>
-          <h3>Staff</h3>
+        <article className='home'>
+        <div className='home__head'>
+            <h3>Staff</h3>
+          </div>
+
           <div>
             <h6>Shawn Teece</h6>
             <p></p>
-          </div>
-          <div>
             <h6>Zuleyka Alvelo-Teece</h6>
             <p></p>
           </div>
-        </div>
+        </article>
 
-        <div>
-          <h3>Resources</h3>
-          <ul>
+        <article className='home'>
+        <div className='home__head'>
+            <h3>Resources</h3>
+          </div>
+          
+          <ul className='home__list'>
             <li>Tax Act Portal</li>
             <li>IRS Website</li>
             <li>MA DOR Website</li>
@@ -59,9 +70,10 @@ const Home = () => {
             <li>NY Dept. of Taxes</li>
             <li>Where's My Refund</li>
           </ul>
-        </div>
+        </article>
+      </div>
 
-    </div>
+    </section>
   )
 }
 
