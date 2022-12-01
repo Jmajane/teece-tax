@@ -12,7 +12,7 @@
 }
 
 .home {
-    background: rgb(30, 119, 124);
+    background: rgb(5, 119, 69);
     border-radius: 2.2rem;
     border: 3px solid rgb(0, 0, 0);
     height: fit-content;
@@ -20,19 +20,20 @@
 }
 
 .home:hover {
-    background: rgb(3, 135, 158);
+    background: rgb(4, 59, 50);
     border-color: rgb(3, 175, 143);
     border-radius: 2.2rem;
-    box-shadow: 0 1rem 1rem black;
+    box-shadow: 0 1rem 1rem rgb(13, 159, 18);
 }
 
 .home__head {
-    background: rgb(51, 56, 52);
+    background: rgb(53, 175, 64);
     padding: 2rem;
+    border: 3px solid;
     border-radius: 2rem;
 }
 
-.home__list-icon {
+.home__list-icon{
     color: rgb(12, 207, 12);
 }
 
