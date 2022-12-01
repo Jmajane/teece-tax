@@ -2,19 +2,15 @@ import React from 'react'
 
 import Header from '../header/Header'
 import {GiCheckMark} from 'react-icons/gi'
-import teecetax from "../../assets/teecetax.png"
 import "./home.css"
 
 
 const Home = () => {
   return (
-    <section id='homes'>
+    <section id='home'>
       <Header />
-      {/* <div className='home__image'>         
-        <img src={teecetax} alt="Company Logo" />
-      </div> */}
 
-      <div className='container homes__container'>
+      <div className='container home__container'>
         <article className='home'>
           <div className='home__head'>
             <h2>Services</h2>

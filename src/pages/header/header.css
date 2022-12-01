@@ -1,0 +1,29 @@
+.header {
+    display: grid;
+    place-items: center;
+    padding-bottom: 2rem;
+    margin-top: -2.6rem;
+}
+
+.header__image {
+    width: 85vw;
+    height: 40vh;
+}
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+
+@media screen and (max-width: 1024px) {
+    .header__image {
+        width: 100vw;
+        height: 30vh;
+    }
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+
+@media screen and (max-width: 600px) {
+    .header__image {
+        width: 100vw;
+        height: 25vh;
+    }
+}

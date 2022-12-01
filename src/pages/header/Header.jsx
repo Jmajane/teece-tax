@@ -1,8 +1,13 @@
-import React from 'react'
+import "./header.css"
+import teecetax from "../../assets/teecetax.png"
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <section id='header'>       
+        <div className='header'>
+            <img className='header__image' src={teecetax} alt="company logo" />
+        </div>
+    </section>
   )
 }
 
