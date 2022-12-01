@@ -5,25 +5,26 @@
 }
 
 .home {
-    background: rgb(1, 157, 1);
-    border-radius: 0 0 2rem 2rem;
-    border: 3px solid rgb(2, 59, 2);
+    background: rgb(44, 182, 113);
+    border-radius: 2.2rem;
+    border: 3px solid rgb(0, 0, 0);
     height: fit-content;
     transition: var(--transition);
 }
 
 .home:hover {
-    background: blue;
-    border-color: red;
-    border-radius: 0 0 2rem 2rem;
+    background: rgb(3, 135, 158);
+    border-color: rgb(60, 3, 175);
+    border-radius: 2rem;
     box-shadow: 0 1rem 1rem black;
 }
 
 .home__head {
-    background: rgb(19, 157, 232);
-    font-size: 1rem;
-    text-align: center;
+    background: rgb(51, 56, 52);
+    padding: 2rem;
+    border-radius: 2rem;
 }
+
 
 .home__list {
     padding: 2rem;

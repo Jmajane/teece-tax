@@ -1,17 +1,18 @@
 import React from 'react'
 
+import teecetax from "../../assets/teecetax.png"
 import "./home.css"
 
 
 const Home = () => {
   return (
     <section id='homes'>
-        <h1>Welcome</h1>
+        <img src={teecetax} alt="Company Logo" />
 
       <div className='container homes__container'>
         <article className='home'>
           <div className='home__head'>
-            <h3>Services</h3>
+            <h2>Services</h2>
           </div>
 
           <ul className='home__list'>
@@ -32,7 +33,7 @@ const Home = () => {
 
         <article className='home'>
         <div className='home__head'>
-            <h3>Clients</h3>
+            <h2>Clients</h2>
           </div>
 
           <ul className='home__list'>
@@ -45,7 +46,7 @@ const Home = () => {
 
         <article className='home'>
         <div className='home__head'>
-            <h3>Staff</h3>
+            <h2>Staff</h2>
           </div>
 
           <div>
@@ -58,7 +59,7 @@ const Home = () => {
 
         <article className='home'>
         <div className='home__head'>
-            <h3>Resources</h3>
+            <h2>Resources</h2>
           </div>
           
           <ul className='home__list'>
