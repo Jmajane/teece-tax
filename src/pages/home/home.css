@@ -4,8 +4,15 @@
     gap: 3rem;
 }
 
+.home__image {  
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+    margin-top: -4rem;
+}
+
 .home {
-    background: rgb(44, 182, 113);
+    background: rgb(30, 119, 124);
     border-radius: 2.2rem;
     border: 3px solid rgb(0, 0, 0);
     height: fit-content;
@@ -14,8 +21,8 @@
 
 .home:hover {
     background: rgb(3, 135, 158);
-    border-color: rgb(60, 3, 175);
-    border-radius: 2rem;
+    border-color: rgb(3, 175, 143);
+    border-radius: 2.2rem;
     box-shadow: 0 1rem 1rem black;
 }
 
@@ -25,6 +32,9 @@
     border-radius: 2rem;
 }
 
+.home__list-icon {
+    color: rgb(12, 207, 12);
+}
 
 .home__list {
     padding: 2rem;
@@ -35,6 +45,7 @@
     gap: 1rem;
     margin-bottom: 0.8rem;
 }
+
 
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */

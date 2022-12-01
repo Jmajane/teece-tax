@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {GiCheckMark} from 'react-icons/gi'
 import teecetax from "../../assets/teecetax.png"
 import "./home.css"
 
@@ -7,7 +7,9 @@ import "./home.css"
 const Home = () => {
   return (
     <section id='homes'>
+      <div className='home__image'>         
         <img src={teecetax} alt="Company Logo" />
+      </div>
 
       <div className='container homes__container'>
         <article className='home'>
@@ -16,18 +18,54 @@ const Home = () => {
           </div>
 
           <ul className='home__list'>
-            <li>Tax Preparation</li>
-            <li>Prior Years Tax Preparation</li>
-            <li>Multi-State Tax</li>
-            <li>Tax Planning</li>
-            <li>Amended Returns</li>
-            <li>Bookkeeping</li>
-            <li>Payroll</li>
-            <li>Financial Statements and Projections</li>
-            <li>Budgeting</li>
-            <li>Free Initial Consultation</li>
-            <li>Free Review of Prior Tax Returns</li>
-            <li>Pricing</li>
+            <li>
+              <GiCheckMark className='home__list-icon' />
+              <p>Tax Preparation</p>
+            </li>                
+            <li>
+              <GiCheckMark className='home__list-icon' />
+              <p>Prior Years Tax Preparation</p>
+            </li>
+            <li>
+              <GiCheckMark className='home__list-icon' />
+              <p>Multi-State Tax</p>
+            </li>
+            <li>
+              <GiCheckMark className='home__list-icon' />
+              <p>Tax Planning</p>
+            </li>
+            <li>
+              <GiCheckMark className='home__list-icon' />
+              <p>Amended Returns</p>
+            </li>
+            <li>
+              <GiCheckMark className='home__list-icon' />
+              <p>Bookkeeping</p>
+            </li>
+            <li>
+              <GiCheckMark className='home__list-icon' />
+              <p>Payroll</p>
+            </li>
+            <li>
+              <GiCheckMark className='home__list-icon' />
+              <p>Financial Statements and Projections</p>
+            </li>
+            <li>
+              <GiCheckMark className='home__list-icon' />
+              <p>Budgeting</p>
+            </li>
+            <li>
+              <GiCheckMark className='home__list-icon' />
+              <p>Free Initial Consultation</p>
+            </li>
+            <li>
+              <GiCheckMark className='home__list-icon' />
+              <p>Free Review of Prior Tax Returns</p>
+            </li>
+            <li>
+              <GiCheckMark className='home__list-icon' />
+              <p>Pricing</p>
+            </li>
           </ul>
         </article>
 
@@ -37,10 +75,26 @@ const Home = () => {
           </div>
 
           <ul className='home__list'>
-            <li>Individuals</li>
-            <li>Sole Proprietors</li>
-            <li>Partnerships</li>
-            <li>S-Corps</li>
+            <li>
+              <GiCheckMark className='home__list-icon' />
+              <p>Individuals</p>
+            </li>
+            <li>
+              <GiCheckMark className='home__list-icon' />
+              <p>Sole Proprietors</p>
+            </li>
+            <li>
+              <GiCheckMark className='home__list-icon' />
+              <p>Partnerships</p>
+            </li>
+            <li>
+              <GiCheckMark className='home__list-icon' />
+              <p>S-Corps</p>
+            </li>
+            <li>
+              <GiCheckMark className='home__list-icon' />
+              <p>Bilingual "English & Spanish"</p>
+            </li>
           </ul>
         </article>
 
