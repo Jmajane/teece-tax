@@ -1,11 +1,11 @@
 import "./header.css"
-import teecetax from "../../assets/teecetax.png"
+import TeeceTax from "../../assets/TeeceTax.png"
 
 const Header = () => {
   return (
     <section id='header'>       
         <div className='header'>
-            <img className='header__image' src={teecetax} alt="company logo" />
+            <img className='header__image' src={TeeceTax} alt="company logo" />
         </div>
     </section>
   )

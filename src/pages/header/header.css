@@ -6,8 +6,9 @@
 }
 
 .header__image {
-    width: 85vw;
-    height: 40vh;
+    border: 6px solid black;
+    width: 100vw;
+    height: 45vh;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
