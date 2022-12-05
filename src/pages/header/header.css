@@ -11,6 +11,10 @@
     height: 45vh;
 }
 
+.button {
+    padding: 1rem;
+}
+
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 
 @media screen and (max-width: 1024px) {

@@ -61,6 +61,31 @@ section > h2 {
     margin-bottom: 3rem;
 }
 
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: rgb(5, 119, 69);
+  padding: 0.75rem 1.2rem; 
+  cursor: pointer;
+  border-radius: 0rem;
+  border: 2px solid black;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: rgb(4, 77, 31);
+  color: white;
+  border-radius: 0.4rem;
+  border: rgb(13, 159, 18); 
+  box-shadow: 0 1rem 1rem white;
+  transition: var(--transition)
+}
+
+.btn-primary {
+  background: rgb(5, 119, 69);
+  color: white;
+}
+
 /* MEDIA QEURIES (MEDIUM DEVICES) */
 
 @media screen and (max-width: 1024px) {
