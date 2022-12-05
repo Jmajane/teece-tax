@@ -1,4 +1,40 @@
 footer {
-    background: rgb(3, 175, 143);
-    
+    background: rgb(37, 37, 37);
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 5rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.footer__logo {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+.permalinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 3rem;
+}
+
+a:hover {
+    color: rgb(16, 205, 16);
+}
+/* MEDIA QEURIES (SMALL DEVICES) */
+
+@media screen and (max-width: 600px) {
+    .permalinks {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
 }

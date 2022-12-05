@@ -136,7 +136,7 @@ const Home = () => {
           </ul>
         </article>
       </div>
-    <Footer />
+      <Footer />
     </section>
   )
 }
