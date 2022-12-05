@@ -1,4 +1,5 @@
-import React from 'react'
+import './footer.css'
+
 
 const Footer = () => {
   return (
@@ -13,7 +14,9 @@ const Footer = () => {
             <li><a href='/Contact'>Contact</a></li>
         </ul>
 
-        
+        <div className='footer__copyright'>
+            <small>&copy; Teece Tax Solutions. All rights reserved</small>
+        </div>
     </footer>
   )
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Header from '../header/Header'
+import Footer from '../footer/Footer'
 import {GiCheckMark} from 'react-icons/gi'
 import "./home.css"
 
@@ -135,7 +136,7 @@ const Home = () => {
           </ul>
         </article>
       </div>
-
+    <Footer />
     </section>
   )
 }
