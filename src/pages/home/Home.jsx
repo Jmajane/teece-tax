@@ -9,7 +9,16 @@ const Home = () => {
   return (
     <section id='home'>
       <Header />
-
+      <div className='home__info'>
+        <p>Teece Tax Solutions is a local tax preparation & bookkeeping business 
+          located in Western Massachusetts, yet servicing clients across the entire 
+          United States at an affordable cost. Services are offered in both English 
+          and Spanish. Services are available both in person and virtual with our 
+          fully encrypted secure portal, zoom calls, and in person appointments. Our 
+          financial knowledge combined with an unmatched work ethic will ensure 
+          clients can optimize their financial resources and attain their financial 
+          goals.</p>
+      </div>
       <div className='container home__container'>
         <article className='home'>
           <div className='home__head'>

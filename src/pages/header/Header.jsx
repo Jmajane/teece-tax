@@ -7,7 +7,7 @@ const Header = () => {
         <div className='header'>
             <img className='header__image' src={TeeceTax} alt="company logo" />
             <div className='button'>
-                <a href='/Contact' className='btn btn-primary'>Send your taxes our way</a>
+                <a href='/Contact' className='btn btn-primary'>Contact Us</a>
             </div>
         </div>
     </section>
