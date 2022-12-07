@@ -5,7 +5,7 @@ const SmallBusiness = () => {
     <div>
       <br></br>
       <br></br>
-      <h1>Small Business</h1>
+      <h1>Small Business / LLC</h1>
     </div>
   )
 }

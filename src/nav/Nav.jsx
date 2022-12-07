@@ -1,7 +1,6 @@
 import {AiOutlineHome} from "react-icons/ai"
 import {BsPersonCheck} from "react-icons/bs"
 import {IoIosBusiness} from "react-icons/io"
-import {TiBusinessCard} from "react-icons/ti"
 import {RiContactsBook2Line} from "react-icons/ri"
 import 'bootstrap/dist/css/bootstrap.css';
 import "./nav.css"
@@ -32,16 +31,9 @@ const Nav = () => {
               <a className="nav-link" href="/SmallBusiness">Small Business <IoIosBusiness className="Nav__List-Icon"/></a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/LLC">LLC <TiBusinessCard className="Nav__List-Icon"/></a>
-            </li>
-            <li className="nav-item">
               <a className="nav-link" href="/Contact">Contact <RiContactsBook2Line className="Nav__List-Icon"/></a>
             </li>
           </ul>
-          <form className="d-flex mt-3" role="search">
-            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
-            <button className="btn btn-success" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </div>

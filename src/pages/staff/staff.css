@@ -1,0 +1,49 @@
+.staff__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.staffOne, .staffTwo{
+  background: rgb(5, 119, 69);
+  border: 3px solid rgb(0, 0, 0);
+  height: auto;
+}
+
+.staff__image {
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  transition: var(--transition);
+  backface-visibility: hidden;
+}
+
+.staff__middle {
+  transition: var(--transition);
+  opacity: 0;
+  position: absolute;
+  width: 30%;
+  padding: 0rem 0rem 2rem 
+}
+
+.staffOne:hover .staff__image{
+  opacity: 0.1;
+}
+
+.staffOne:hover .staff__middle{
+  opacity: 1;
+}
+.staffTwo:hover .staff__image{
+  opacity: 0.1;
+}
+
+.staffTwo:hover .staff__middle{
+  opacity: 1;
+}
+
+.staff__info {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}

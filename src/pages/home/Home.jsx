@@ -1,5 +1,4 @@
-import React from 'react'
-
+import Staff from '../staff/Staff'
 import Header from '../header/Header'
 import Footer from '../footer/Footer'
 import {GiCheckMark} from 'react-icons/gi'
@@ -107,36 +106,11 @@ const Home = () => {
           </ul>
         </article>
 
-        <article className='home'>
-        <div className='home__head'>
-            <h2>Staff</h2>
-          </div>
-
-          <div>
-            <h6>Shawn Teece</h6>
-            <p></p>
-            <h6>Zuleyka Alvelo-Teece</h6>
-            <p></p>
-          </div>
-        </article>
-
-        <article className='home'>
-        <div className='home__head'>
-            <h2>Resources</h2>
-          </div>
-          
-          <ul className='home__list'>
-            <li>Tax Act Portal</li>
-            <li>IRS Website</li>
-            <li>MA DOR Website</li>
-            <li>CT DOR Website</li>
-            <li>VT Dept. of Taxes</li>
-            <li>NY Dept. of Taxes</li>
-            <li>Where's My Refund</li>
-          </ul>
-        </article>
       </div>
+
+      <Staff />
       <Footer />
+
     </section>
   )
 }
