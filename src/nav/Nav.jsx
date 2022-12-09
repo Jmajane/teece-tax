@@ -28,7 +28,7 @@ const Nav = () => {
               <a className="nav-link" href="/PersonalTaxes">Personal Taxes <BsPersonCheck className="Nav__List-Icon"/></a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/SmallBusiness">Small Business <IoIosBusiness className="Nav__List-Icon"/></a>
+              <a className="nav-link" href="/SmallBusiness">Small Business / LLC<IoIosBusiness className="Nav__List-Icon"/></a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/Contact">Contact <RiContactsBook2Line className="Nav__List-Icon"/></a>

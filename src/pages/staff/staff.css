@@ -1,44 +1,60 @@
+.staff__head {
+  display: grid;
+  place-items: center;
+  background: rgb(53, 175, 64);
+  padding: 1rem;
+  border: 3px solid black;
+}
+
 .staff__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
 }
 
-.staffOne, .staffTwo{
-  background: rgb(5, 119, 69);
-  border: 3px solid rgb(0, 0, 0);
-  height: auto;
-}
-
 .staff__image {
   opacity: 1;
-  width: 100%;
+  width: 32vw;
   height: auto;
+  margin: 1rem;
   transition: var(--transition);
   backface-visibility: hidden;
+  border: 3px solid black;
 }
 
 .staff__middle {
   transition: var(--transition);
   opacity: 0;
   position: absolute;
-  width: 30%;
-  padding: 0rem 0rem 2rem 
+  width: 32vw;
+  margin: 1rem;
 }
 
 .staffOne:hover .staff__image{
-  opacity: 0.1;
+  opacity: 0.2;
+  border-color: rgb(3, 175, 143);
+  border-radius: 0 0 2.2rem 2.2rem;
+  box-shadow: 0 1rem 1rem rgb(13, 159, 18);
 }
 
 .staffOne:hover .staff__middle{
   opacity: 1;
+  border-color: rgb(3, 175, 143);
+  border-radius: 0 0 2.2rem 2.2rem;
+  box-shadow: 0 1rem 1rem rgb(13, 159, 18)
 }
 .staffTwo:hover .staff__image{
   opacity: 0.1;
+  border-color: rgb(3, 175, 143);
+  border-radius: 0 0 2.2rem 2.2rem;
+  box-shadow: 0 1rem 1rem rgb(13, 159, 18)
 }
 
 .staffTwo:hover .staff__middle{
   opacity: 1;
+  border-color: rgb(3, 175, 143);
+  border-radius: 0 0 2.2rem 2.2rem;
+  box-shadow: 0 1rem 1rem rgb(13, 159, 18)
 }
 
 .staff__info {
@@ -46,4 +62,48 @@
   color: white;
   font-size: 16px;
   padding: 16px 32px;
+}
+
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+
+@media screen and (max-width: 1024px) {
+  .staff__container {
+      grid-template-columns: 1fr;
+      gap: 0rem;
+  }
+  .staff__image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45vw;
+  }
+  .staffOne, .staffTwo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45vw;
+  }
+  .staff__middle {
+    width: 45vw;
+    margin-left: 0;
+  }
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+
+@media screen and (max-width: 600px) {
+  .staff__container {
+      grid-template-columns: 1fr;
+      gap: 0rem
+  }
+  .staff__image {
+    width: 70vw;
+  }
+  .staffOne, .staffTwo {
+    width: 70vw;
+  }
+  .staff__middle {
+    width: 70vw;
+  }
 }
