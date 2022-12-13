@@ -97,6 +97,10 @@ section > h2 {
   section {
       margin-top: 6rem;
   }
+
+  h1 {
+    font-size: 3rem;
+  }
 }
 
 /* MEDIA QEURIES (SMALL DEVICES) */
@@ -108,5 +112,9 @@ section > h2 {
 
   section > h2 {
       margin-bottom: 2rem;
+  }
+
+  h1 {
+    font-size: 2.4rem;
   }
 }

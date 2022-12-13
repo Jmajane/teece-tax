@@ -1,0 +1,52 @@
+.smallBusiness__title {
+    display: grid;
+    place-items: center;
+    background: rgb(53, 175, 64);
+    padding: 1rem;
+    border: 3px solid black;
+}
+
+.smallBusiness__container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.smallBusiness {
+    background: rgb(5, 119, 69);
+    border: 3px solid rgb(0, 0, 0);
+    height: auto;
+    margin-top: 2rem;
+    transition: var(--transition);
+}
+
+.smallBusiness__head {
+    background: rgb(53, 175, 64);
+    padding: 1rem;
+    border: 3px solid;
+    transition: var(--transition);
+}
+
+.smallBusiness__list {
+    padding: 2rem;
+}
+
+.smallBusiness__list li {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.smallBusiness:hover {
+    background: rgb(4, 59, 50);
+    border-color: rgb(3, 175, 143);
+    border-radius: 0 0 2.2rem 2.2rem;
+    box-shadow: 0 1rem 1rem rgb(13, 159, 18);
+}
+
+.smallBusiness__head:hover {
+    border-radius: 0 0 2.2rem 2.2rem;
+    box-shadow: 0 1rem 1rem rgb(13, 159, 18);
+}
+

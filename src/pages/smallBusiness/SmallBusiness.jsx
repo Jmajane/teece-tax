@@ -5,17 +5,17 @@ import Footer from '../footer/Footer'
 import {GiCheckMark} from 'react-icons/gi'
 import {MdAttachMoney} from 'react-icons/md'
 
-const Small = () => {
+const SmallBusiness = () => {
   return (
     <section id='smallBusiness'>
       <div className='container smallBusiness__title'>
-        <h1>Personal Taxes</h1>
+        <h1>Small Business & LLC</h1>
       </div>
 
       <div className='container smallBusiness__container'>
         <article className='smallBusiness'>
           <div className='smallBusiness__head'>
-            <h2>Small Business & LLC</h2>
+            <h2>Services</h2>
           </div>
 
           <ul className='smallBusiness__list'>
@@ -29,7 +29,7 @@ const Small = () => {
             </li>
             <li>
               <p><GiCheckMark className='home__list-icon' /> Quarterly & Annual Payroll Filings</p>
-              <p><MdAttachMoney className='home__list-icon' />*Included with Payroll*</p>
+              <p><MdAttachMoney className='home__list-icon' />Included with Payroll</p>
             </li>
             <li>
               <p><GiCheckMark className='home__list-icon' /> 1120S Tax Return (S Corps)</p>

@@ -14,7 +14,7 @@ const PersonalTaxes = () => {
       <div className='container personalTaxes__container'>
         <article className='personalTaxes'>
           <div className='personalTaxes__head'>
-            <h2>Personal Tax Returns</h2>
+            <h2>Tax Returns</h2>
           </div>
 
           <ul className='personalTaxes__list'>
