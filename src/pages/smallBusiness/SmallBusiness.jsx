@@ -15,29 +15,29 @@ const Small = () => {
       <div className='container smallBusiness__container'>
         <article className='smallBusiness'>
           <div className='smallBusiness__head'>
-            <h2>Personal Tax Returns</h2>
+            <h2>Small Business & LLC</h2>
           </div>
 
           <ul className='smallBusiness__list'>
             <li>
-              <p><GiCheckMark className='home__list-icon' /> Federal Return</p>
-              <p><MdAttachMoney className='home__list-icon' />115</p>
+              <p><GiCheckMark className='home__list-icon' /> Bookkeeping</p>
+              <p><MdAttachMoney className='home__list-icon' />300/Mo</p>
             </li>
             <li>
-              <p><GiCheckMark className='home__list-icon' /> Per State Return</p>
-              <p><MdAttachMoney className='home__list-icon' />25</p>
+              <p><GiCheckMark className='home__list-icon' /> Payroll Services</p>
+              <p><MdAttachMoney className='home__list-icon' />100/Mo</p>
             </li>
             <li>
-              <p><GiCheckMark className='home__list-icon' /> Per Schedule C Business</p>
-              <p><MdAttachMoney className='home__list-icon' />75</p>
+              <p><GiCheckMark className='home__list-icon' /> Quarterly & Annual Payroll Filings</p>
+              <p><MdAttachMoney className='home__list-icon' />*Included with Payroll*</p>
             </li>
             <li>
-              <p><GiCheckMark className='home__list-icon' /> Per Schedule E Rental Property</p>
-              <p><MdAttachMoney className='home__list-icon' />75</p>
+              <p><GiCheckMark className='home__list-icon' /> 1120S Tax Return (S Corps)</p>
+              <p><MdAttachMoney className='home__list-icon' />600 Annual</p>
             </li>
             <li>
-              <p><GiCheckMark className='home__list-icon' /> 1099-B Stocks / Cyrpto</p>
-              <p><MdAttachMoney className='home__list-icon' />10</p>
+              <p><GiCheckMark className='home__list-icon' /> 1065 Partnership Return</p>
+              <p><MdAttachMoney className='home__list-icon' />400 Annual</p>
             </li>
           </ul>
         </article>
