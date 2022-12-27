@@ -58,6 +58,7 @@ const Contact = () => {
         </article>
       </div>
 
+
       <Footer />
     </section>
   )
