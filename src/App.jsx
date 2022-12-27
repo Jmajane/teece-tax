@@ -13,9 +13,9 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-            <Route path='PersonalTaxes' element={<PersonalTaxes />} />
-            <Route path='SmallBusiness' element={<SmallBusiness />} />
-            <Route path='Contact' element={<Contact />} />
+            <Route path='/PersonalTaxes' element={<PersonalTaxes />} />
+            <Route path='/SmallBusiness' element={<SmallBusiness />} />
+            <Route path='/Contact' element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>
