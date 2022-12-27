@@ -77,7 +77,7 @@ section > h2 {
   color: white;
   border-radius: 0.4rem;
   border: 3px dashed white; 
-  box-shadow: 0 1rem 1rem white;
+  box-shadow: 0 1rem 1rem rgb(53, 175, 64);;
   transition: var(--transition)
 }
 

@@ -1,4 +1,5 @@
-import Bailey from '../../assets/Bailey.jpg'
+import Zuleyka from '../../assets/Zuleyka.jpg'
+import Shawn from '../../assets/Shawn.jpg'
 import './staff.css'
 
 const Staff = () => {
@@ -20,7 +21,7 @@ const Staff = () => {
               organization in Western MA.</p>
               </div>
           </div> 
-          <img className="staff__image" src={Bailey} alt="staff" />
+          <img className="staff__image" src={Shawn} alt="staff" />
         </article>
 
         <article className='staffTwo'>
@@ -38,7 +39,7 @@ const Staff = () => {
               organization in Western Massachusetts.</p>
               </div>
           </div> 
-          <img className="staff__image" src={Bailey} alt="staff" />
+          <img className="staff__image" src={Zuleyka} alt="staff" />
         </article>
 
       </div>
