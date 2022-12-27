@@ -2,6 +2,7 @@ import {AiOutlineHome} from "react-icons/ai"
 import {BsPersonCheck} from "react-icons/bs"
 import {IoIosBusiness} from "react-icons/io"
 import {RiContactsBook2Line} from "react-icons/ri"
+import {HiOutlineDesktopComputer} from "react-icons/hi"
 import 'bootstrap/dist/css/bootstrap.css';
 import "./nav.css"
 
@@ -22,7 +23,7 @@ const Nav = () => {
         <div className="offcanvas-body">
           <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="/"><AiOutlineHome className="Nav__List-Icon"/></a>
+              <a className="nav-link" aria-current="page" href="/">Home <AiOutlineHome className="Nav__List-Icon"/></a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/PersonalTaxes">Personal Taxes <BsPersonCheck className="Nav__List-Icon"/></a>
@@ -32,6 +33,9 @@ const Nav = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/Contact">Contact <RiContactsBook2Line className="Nav__List-Icon"/></a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="https://www.mytaxdocs.com/?o=19413" target='_blank' rel="noreferrer">Client Portal <HiOutlineDesktopComputer className="Nav__List-Icon"/></a>
             </li>
           </ul>
         </div>
