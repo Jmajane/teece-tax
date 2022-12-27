@@ -1,4 +1,6 @@
+import React from "react"
 import "./header.css"
+
 import TeeceTax from "../../assets/TeeceTax.png"
 
 const Header = () => {
