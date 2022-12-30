@@ -62,4 +62,7 @@
     .smallBusiness__list {
         padding-bottom: 0;
     }
+    .smallBusiness__mobile {
+        margin-left: 2rem;
+    }
 }

@@ -75,4 +75,11 @@
         grid-template-columns: 1fr;
         gap: 1.5rem
     }
+    .home__list li{
+        margin-left: -1.5rem;
+        margin-right: -1.5rem;
+    }
+    .home__list {
+        padding-bottom: 0;
+    }
 }
