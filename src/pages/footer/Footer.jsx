@@ -11,6 +11,7 @@ const Footer = () => {
             <li><a href='/PersonalTaxes'>Personal Taxes</a></li>
             <li><a href='/SmallBusiness'>Small Business</a></li>
             <li><a href='/Contact'>Contact</a></li>
+            <li><a href="https://www.mytaxdocs.com/?o=19413" target='_blank' rel="noreferrer">Client Portal</a></li>
         </ul>
 
         <div className='footer__copyright'>
