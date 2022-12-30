@@ -48,3 +48,13 @@
     border-radius: 0 0 2.2rem 2.2rem;
     box-shadow: 0 1rem 1rem rgb(13, 159, 18);
 }
+
+@media screen and (max-width: 600px) {
+    .personalTaxes__list li{
+        margin-left: -1.5rem;
+        margin-right: -1.5rem;
+    }
+    .personalTaxes__list {
+       padding-bottom: 0;
+    }
+}

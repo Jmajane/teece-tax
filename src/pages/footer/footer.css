@@ -30,11 +30,14 @@ footer a {
 a:hover {
     color: rgb(16, 205, 16);
 }
+
+
 /* MEDIA QEURIES (SMALL DEVICES) */
 
 @media screen and (max-width: 600px) {
     .permalinks {
         flex-direction: column;
         gap: 1.5rem;
+        padding: 0;
     }
 }

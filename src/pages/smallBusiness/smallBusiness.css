@@ -56,5 +56,10 @@
     .smallBusiness__list li{
         flex-wrap: wrap;
         text-align: left;
+        margin-left: -1.5rem;
+        margin-right: -1.5rem;
+    }
+    .smallBusiness__list {
+        padding-bottom: 0;
     }
 }
