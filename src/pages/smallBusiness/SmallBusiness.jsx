@@ -33,11 +33,11 @@ const SmallBusiness = () => {
             </li>
             <li>
               <p><GiCheckMark className='home__list-icon' /> 1120S Tax Return (S Corps)</p>
-              <p><MdAttachMoney className='home__list-icon' />600 Annual</p>
+              <p><MdAttachMoney className='home__list-icon' />Starting at 600 Annual</p>
             </li>
             <li>
               <p><GiCheckMark className='home__list-icon' /> 1065 Partnership Return</p>
-              <p><MdAttachMoney className='home__list-icon' />400 Annual</p>
+              <p><MdAttachMoney className='home__list-icon' />Starting at 400 Annual</p>
             </li>
           </ul>
         </article>

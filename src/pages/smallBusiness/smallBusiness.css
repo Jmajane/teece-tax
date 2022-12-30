@@ -50,3 +50,11 @@
     box-shadow: 0 1rem 1rem rgb(13, 159, 18);
 }
 
+/* MEDIA QUERIES (SMALL DEVICES) */
+
+@media screen and (max-width: 600px) {
+    .smallBusiness__list li{
+        flex-wrap: wrap;
+        text-align: left;
+    }
+}
