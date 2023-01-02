@@ -35,7 +35,7 @@ const PersonalTaxes = () => {
               <p><MdAttachMoney className='home__list-icon'/>75</p>
             </li>
             <li>
-              <p><GiCheckMark className='home__list-icon' /> 1099-B Stocks / Cyrpto</p>
+              <p><GiCheckMark className='home__list-icon' /> 1099-B Stocks / Crypto</p>
               <p><MdAttachMoney className='home__list-icon'/>10</p>
             </li>
           </ul>
