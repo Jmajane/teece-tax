@@ -4,6 +4,7 @@ import Footer from '../footer/Footer'
 
 import {GiCheckMark} from 'react-icons/gi'
 import {MdAttachMoney} from 'react-icons/md'
+import {RxDotFilled} from 'react-icons/rx'
 
 const SmallBusiness = () => {
   return (
@@ -29,15 +30,15 @@ const SmallBusiness = () => {
             </li>
             <li>
               <p><GiCheckMark className='home__list-icon' /> Quarterly & Annual Payroll Filings</p>
-              <p className='smallBusiness__mobile'><MdAttachMoney className='home__list-icon' />Included with Payroll</p>
+              <p className='smallBusiness__mobile'><RxDotFilled className='home__list-icon' />Included with Payroll</p>
             </li>
             <li>
               <p><GiCheckMark className='home__list-icon' /> 1120S Tax Return (S Corps)</p>
-              <p className='smallBusiness__mobile'><MdAttachMoney className='home__list-icon' />Starting at 600 Annual</p>
+              <p className='smallBusiness__mobile'><RxDotFilled className='home__list-icon' />Starting at <MdAttachMoney className='home__list-icon' />600 Annual</p>
             </li>
             <li>
               <p><GiCheckMark className='home__list-icon' /> 1065 Partnership Return</p>
-              <p className='smallBusiness__mobile'><MdAttachMoney className='home__list-icon' />Starting at 400 Annual</p>
+              <p className='smallBusiness__mobile'><RxDotFilled className='home__list-icon' />Starting at <MdAttachMoney className='home__list-icon' />400 Annual</p>
             </li>
           </ul>
         </article>
