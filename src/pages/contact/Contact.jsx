@@ -3,6 +3,7 @@ import Footer from '../footer/Footer'
 
 import {AiOutlinePhone, AiOutlineMail} from 'react-icons/ai'
 import {CgWebsite} from 'react-icons/cg'
+import {GrFacebook} from 'react-icons/gr'
 
 const Contact = () => {
   return (
@@ -23,6 +24,9 @@ const Contact = () => {
             </li>
             <li>
               <a href='mailto:Taxes@teecetaxsolutions.com' target="_blank" rel="noreferrer"><AiOutlineMail className='home__list-icon'/> Send an email</a>
+            </li>
+            <li>
+              <a href='https://www.facebook.com/TeeceTaxSolutions' target="_blank" rel="noreferrer"><GrFacebook className='home__list-icon'/> Follow us on FaceBook</a>
             </li>
           </ul>
         </article>
